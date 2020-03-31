@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+
+		<h1>A small web page</h1>
+
+		<div class="content top">
+			For exploring the DOM.
+		</div>
+		<div class="content middle">
+			The DOM is the Document Object Model which is an API for web pages.
+			<br>
+			It allows us to add behaviour to a web page.
+		</div>
+		<div class="content">
+			<h2>Some input elements</h2>
+			<div class="control topMessage">
+				<div class="theMessage">
+					We will display a message here when the button is pressed...
+				</div>
+			</div>
+			<div class="control topMessage">
+				<label for="theMessage">The name</label>
+				<input type="text" name="name" class="theName" placeholder="Enter your name">
+			</div>
+			<div class="control ">
+				<label for="theDate">The date</label>
+				<input type="date" name="theDate" class="theDate">
+			</div>
+			<div class="control">
+				<label for="theColor">The color</label>
+				<input type="radio" name="color"> Orange
+				<input type="radio" name="color"> Blue
+				<input type="radio" name="color"> Green
+			</div>
+			<div class="control">
+				<input type="button" class="theButton" value="Press me!">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
