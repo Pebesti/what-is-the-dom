@@ -15,11 +15,58 @@
 		<div class="content top">
 			For exploring the DOM.
 		</div>
-		<div class="content middle">
-			The DOM is the Document Object Model which is an API for web pages.
-			<br>
-			It allows us to add behaviour to a web page.
+		<div class="content top">
+			<h2>Please tell me</h2>
+			<ul>
+				<li>What is the DOM?</li>
+				<li>How do I use it?</li>
+			</ul>
+
+			<h3>What is the DOM?</h3>
+
+			<ul>
+				<li>The DOM is the Document Object Model which is an API for web pages.</li>
+				<li>It allows you to add behaviour (events) to a web page.</li>
+			</ul>			
+
+			<h3>How do I use it?</h3>
+
+			<ul>
+				<li>You use JavaScript in a script tag in your html page,</li>
+				<li>to access the DOM using <i>document</i> object,</li>
+				<li>to get a reference to DOM elements,</li>
+				<li>and then you can add behaviour to the elements or get and set values on the elements.</li>
+			</ul>
+
+			<div class="code">
+				<code>
+					// to get the value of the element
+					<br>
+					const theElement = document.querySelector(".targetElement");
+					<br>
+					console.log(theElement.value);
+	
+					<br>
+					<br>
+					// to set a new value in an element
+					<br>
+					theElement.value = "The new value..."
+	
+					<br>
+					<br>
+					// to add behaviour to a button
+					<br>
+					const theButton = document.querySelector(".targetButton");
+					<br>
+					theButton.addEventListener("click", function() {
+						<br>
+						// do something when the button is clicked
+						<br>
+					});
+				</code>
+			</div>
 		</div>
+
 		<div class="content">
 			<h2>Some input elements</h2>
 			<div class="control topMessage">

@@ -37,6 +37,11 @@ body {
 	margin: 0.5em 0em;
 }
 
+.code {
+	background-color: lightgrey;
+	padding: 0.5em;
+}
+
 @media(min-width: 1024px) {
 	.container {
 		width: 80%;
