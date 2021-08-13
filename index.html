@@ -71,8 +71,10 @@
 			<h2>Some input elements</h2>
 			<div class="control topMessage">
 				<div class="theMessage">
-					We will display a message here when the button is pressed...
-				</div>
+ 				
+				We will display a message here when the button is pressed...
+			</div>
+			</div>
 			</div>
 			<div class="control topMessage">
 				<label for="theMessage">The name</label>
@@ -84,14 +86,16 @@
 			</div>
 			<div class="control">
 				<label for="theColor">The color</label>
-				<input type="radio" name="color"> Orange
-				<input type="radio" name="color"> Blue
-				<input type="radio" name="color"> Green
+				<input type="radio" name="theColor" class="theColor" value="Orange"> Orange
+				<input type="radio" name="theColor"class="theColor"value="Blue"> Blue
+				<input type="radio" name="theColor"class="theColor"value="Green"> Green
 			</div>
 			<div class="control">
 				<input type="button" class="theButton" value="Press me!">
 			</div>
 		</div>
 	</div>
+ 
+	<script src="what-is-the-dom.js"> </script>
 </body>
 </html>
